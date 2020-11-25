@@ -1,5 +1,9 @@
 def greet_characters(array)
-  array.each do { |x| print "Hello #{x}!"}
+  array.each do |x| 
+    custom_greeting = "Hello #{x}"
+    print custom_greeting
+    
+  end
   
   # Use `each` to enumerate over the provided array
   #
