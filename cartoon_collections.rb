@@ -13,6 +13,7 @@ end
 def list_dwarves(array)
   
   array.each_with_index do |e, i|
+    i = i + 1
     print "#{i}.#{e}"
   end
   
