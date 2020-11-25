@@ -12,8 +12,7 @@ end
 
 def list_dwarves(array)
   
-  array.each_with_ind
-  ex do |e, i|
+  array.each_with_index do |e, i|
     print "#{i}. #{e}"
   end
   
