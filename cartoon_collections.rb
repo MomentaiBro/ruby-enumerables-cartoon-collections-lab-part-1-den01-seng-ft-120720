@@ -1,6 +1,6 @@
 def greet_characters(array)
   array.each do |x| 
-    custom_greeting = "Hello #{x}"
+    custom_greeting = "Hello #{x}!"
     print custom_greeting
     
   end
